@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+
+/*home secton styles*/
+
+.home {
+    margin-top: 50px;
+    width: 100%;
+    min-height: 610px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "ubontu", sans-serif;
+}
+
+.about {
+    width: 100%;
+    min-height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/aboutb.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "ubontu", sans-serif;
+}
+
+.about .div {
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+
+}
+
+.service {
+    width: 100%;
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/service.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'ubontu', sans-serif
+}
+
+.service .div {
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.skills .div {
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.skills {
+    width: 100%;
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/skill.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'ubontu', sans-serif
+}
+
+.teams .div {
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.teams {
+    width: 100%;
+    min-height: 450px;
+    font-family: 'ubontu', sans-serif;
+}
+.contacts{
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/contact.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'ubontu', sans-serif;
+    
+}
+.contacts .div {
+    height: 5px;
+    width: 60px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+
+}
+.top{
+    height:50px;
+    width: 50px;
+    text-align: center;
+    position:fixed;
+    bottom: 30px;
+    left: 30px;
+    line-height: 50px;
+}
+.top a{
+    text-decoration: none;
+    color:aqua;
+}
+html,body{
+    
+    overflow-x: hidden;
+}
