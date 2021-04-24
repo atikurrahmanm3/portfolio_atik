@@ -26,6 +26,21 @@
     background-size: 100% 100%;
     font-family: "ubontu", sans-serif;
 }
+.home .htext{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+/*    border-right: 2px solid crimson;*/
+    animation: text 6s steps(20) infinite alternate;
+}
+@keyframes text{
+    0%{
+        width:0ch;
+    }
+    50%{
+        width: 20ch;
+    }
+}
 
 .about {
     width: 100%;
